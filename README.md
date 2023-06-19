@@ -107,6 +107,7 @@
     <h1>[Prénom Nom]</h1>
     <img src="photo.jpg" alt="Photo de [Prénom Nom]">
     <p>Élève en 2ème année de BTS SIO, Option SISR</p>
+    <script src="https://tryhackme.com/badge/1995687"></script>
   </header>
 
   <nav>

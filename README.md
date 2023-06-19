@@ -3,16 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon Portfolio</title>
+  <title>Portfolio BTS SIO</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <style>
-    /* Styles CSS personnalisés ici */
+    body {
+      background-color: #2c003e;
+      color: #fff;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #d4a5ff;
+    }
+
+    .navbar {
+      background-color: #190027;
+    }
+
+    .navbar-brand {
+      color: #d4a5ff;
+    }
+
+    .nav-link {
+      color: #fff;
+    }
+
+    #about {
+      background-color: #3d004b;
+      padding: 50px 0;
+    }
+
+    #portfolio {
+      background-color: #460061;
+      padding: 50px 0;
+    }
+
+    #contact {
+      background-color: #52006d;
+      padding: 50px 0;
+    }
+
+    footer {
+      background-color: #190027;
+      color: #fff;
+      padding: 20px 0;
+    }
   </style>
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Mon Portfolio</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Portfolio BTS SIO</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,14 +72,14 @@
     </nav>
   </header>
 
-  <section id="about" class="py-5">
+  <section id="about">
     <div class="container">
       <h2>À propos de moi</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed posuere nisi, sed volutpat lorem. Phasellus ac neque feugiat, venenatis lacus et, vehicula metus. Duis rutrum euismod risus, in volutpat ligula elementum ut.</p>
     </div>
   </section>
 
-  <section id="portfolio" class="bg-light py-5">
+  <section id="portfolio">
     <div class="container">
       <h2>Portfolio</h2>
       <div class="row">
@@ -74,7 +114,7 @@
     </div>
   </section>
 
-  <section id="contact" class="py-5">
+  <section id="contact">
     <div class="container">
       <h2>Contact</h2>
       <form>
@@ -90,13 +130,15 @@
           <label for="message">Message</label>
           <textarea class="form-control" id="message" rows="5" placeholder="Votre message"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Envoyer</button>
+        <button type="submit" class="btn btn-light">Envoyer</button>
       </form>
     </div>
   </section>
 
-  <footer class="bg-dark text-white text-center py-3">
-    <p>Mon Portfolio &copy; 2023</p>
+  <footer>
+    <div class="container text-center">
+      <p>Portfolio BTS SIO &copy; 2023</p>
+    </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

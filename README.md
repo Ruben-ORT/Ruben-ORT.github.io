@@ -5,6 +5,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - [Prénom Nom]</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #f3f3f3;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 40px;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin: 10px 0;
+      color: #333333;
+    }
+    
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #666666;
+    }
+    
+    nav {
+      background-color: #333333;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+    }
+    
+    nav ul li a {
+      color: #ffffff;
+      font-size: 16px;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    
+    section {
+      background-color: #ffffff;
+      padding: 40px;
+      margin-bottom: 20px;
+    }
+    
+    h2 {
+      font-size: 24px;
+      color: #333333;
+      margin: 0 0 20px 0;
+    }
+    
+    article {
+      margin-bottom: 40px;
+    }
+    
+    article h3 {
+      font-size: 20px;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    
+    article p {
+      color: #666666;
+      margin-bottom: 10px;
+    }
+    
+    article img {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    article a {
+      display: block;
+      margin-bottom: 10px;
+      color: #333333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    footer {
+      background-color: #333333;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -64,4 +160,11 @@
   <section id="formation">
     <h2>Formation</h2>
     <p>BTS SIO (Services Informatiques aux Organisations) - Option SISR</p>
-    <p>[Nom de l'établissement] -
+    <p>[Nom de l'établissement] - [Année en cours]</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 [Prénom Nom]. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
